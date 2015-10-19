@@ -1,21 +1,22 @@
 {
   "name": "hobby",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Hobby Server",
   "main": "server",
   "bin": {
     "hobby": "bin/hobby"
   },
   "dependencies": {
-    "restify": "~2.6.1",
-    "request": "~2.27.0",
-    "level": "~0.16.0"
+    "restify": "~4.0.3",
+    "request": "~2.65.0",
+    "levelup": "~1.2.1",
+    "leveldown": "~1.4.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/HoopCHINA/hobby.git",
-  "author": "Wang Wenlin",
+  "author": "bluntliu",
   "license": "BSD"
 }
